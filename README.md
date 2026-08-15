@@ -1,4 +1,4 @@
-# las-higorder-deconvolution
+# las-highorder-deconvolution
 
 Trained models, results, input parameters and code for High-Order Spectral Deconvolution of Complex X-Ray Distributions Using Machine Learning
 
