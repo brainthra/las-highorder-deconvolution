@@ -1,0 +1,6 @@
+{
+    "boltzmann": ["boltzmann", "gaussian", "skew", "shighorder"],
+    "gaussian": ["boltzmann", "gaussian", "skew", "shighorder"],
+    "skew": ["boltzmann", "gaussian", "skew", "shighorder"],
+    "shighorder": ["boltzmann", "gaussian", "skew", "shighorder"]
+}

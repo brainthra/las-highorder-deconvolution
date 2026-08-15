@@ -1,0 +1,6 @@
+{
+    "criterion": "torch.nn.MSELoss",
+    "optimizer": "Adam",
+    "num_epochs": 200,
+    "lr": 5e-4
+}
