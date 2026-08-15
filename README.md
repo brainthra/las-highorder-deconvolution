@@ -1,6 +1,6 @@
 # lastesting
 
-Trained models, results and code for High-Order Spectral Deconvolution of Complex X-Ray Distributions Using Machine Learning
+Trained models, results, input parameters and code for High-Order Spectral Deconvolution of Complex X-Ray Distributions Using Machine Learning
 
 ## Structure
 ```
@@ -11,10 +11,10 @@ Trained models, results and code for High-Order Spectral Deconvolution of Comple
 |-- testing/
 |-- bench-our/
 |-- bench-mpd/
-|-- results/
-    |-- oru.py
-    |-- figs.py
-    |-- be.py
+|-- evaluation/
+    |-- figs-bench.py
+    |-- figs-iv.py
+    |-- figs-group.py
     |-- fig-*.pdf
 |-- train-all.py
 |-- seed-train-script.py
@@ -54,6 +54,6 @@ To run the tests, you can use the `test-all.py` script. It will run all the test
 To run the benchmarks, you can use the `our-bench-all.py` script. This will run the benchmarks and generate the results in the `bench-our` directory.
 
 To generate the figures, you can use the:
-- `results/be.py` script. It will generate the figures and save them in the `results` directory.
-- `results/figs.py` script. It will generate the figures and save them in the `results` directory.
-- `results/oru.py` script. It will generate the figures and save them in the `results` directory.
+- `evaluation/figs-bench.py` script. It will generate the figures and save them in the `evaluation` directory.
+- `evaluation/figs-iv.py` script. It will generate the figures and save them in the `evaluation` directory.
+- `evaluation/figs-group.py` script. It will generate the figures and save them in the `evaluation` directory.
