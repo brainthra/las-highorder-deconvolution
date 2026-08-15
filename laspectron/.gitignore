@@ -1,0 +1,13 @@
+**/*.npy
+!data-boltzmann-full_spectras.npy
+
+# python package
+__pycache__/
+*.py[cod]
+*.so
+*.dylib
+*.egg-info/
+dist/
+build/
+
+.DS_Store

@@ -1,0 +1,1 @@
+from lasim.digitisers import Camera

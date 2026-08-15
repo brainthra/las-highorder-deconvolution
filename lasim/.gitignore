@@ -1,0 +1,14 @@
+# python package specific files
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+
+.vscode/
+.venv/
+
+.DS_Store
+
+*.h5

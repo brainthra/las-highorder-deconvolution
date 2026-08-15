@@ -1,0 +1,24 @@
+[project]
+name = "lasim"
+version = "0.1.0"
+description = "Linear Absorption Spectrometer Simulation "
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "MACR @ git+https://github.com/cda24/MACR.git@43bafb1734c4189c52dd5bb5fbad162deac71f24"
+]
+
+[build-system]
+build-backend = "hatchling.build"
+requires = ["hatchling"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
